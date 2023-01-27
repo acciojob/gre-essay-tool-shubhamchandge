@@ -18,5 +18,5 @@ text.addEventListener("input", () => {
 
   // console.log(count);
 
-  counter.innerHTML = count;
+  counter.innerHTML = count-1;
 });
