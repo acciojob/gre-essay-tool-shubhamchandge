@@ -1,6 +1,6 @@
 
 let text = document.getElementById("evaluatedText");
-let counter = document.getElementById("letterCount");
+let counter = document.getElementById("wordCount");
 
 text.addEventListener("input", () => {
   let count = 0;
@@ -20,4 +20,3 @@ text.addEventListener("input", () => {
 
   counter.innerHTML = count;
 });
-
